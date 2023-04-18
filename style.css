@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 
-/* font-family: 'Lexend Deca', sans-serif; */
-/* font-family: 'Big Shoulders Display', cursive; */
 :root {
     --Bright-orange: hsl(31, 77%, 52%);
     --Dark-cyan: hsl(184, 100%, 22%);
@@ -21,7 +19,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     min-height: 100vh;
     background-color: var(--Verylight-gray);
 }
@@ -30,7 +27,6 @@ body {
     display: flex;
     flex-direction: row;
     margin: 2.5rem;
-
 }
 
 img {
@@ -42,7 +38,7 @@ img {
     display: flex;
     flex-direction: column;
     width: 280px;
-    height: 450px;
+    height: 470px;
     background-color: var(--Bright-orange);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -53,7 +49,7 @@ img {
     display: flex;
     flex-direction: column;
     width: 280px;
-    height: 450px;
+    height: 470px;
     background-color: var(--Dark-cyan);
 
 }
@@ -63,7 +59,7 @@ img {
     display: flex;
     flex-direction: column;
     width: 280px;
-    height: 450px;
+    height: 470px;
     background-color: var(--Verydark-cyan);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -73,8 +69,8 @@ img {
 p {
     font-family: 'Lexend Deca', sans-serif;
     color: var(--Transparent-white);
-    font-size: 0.85rem;
-    line-height: 20px;
+    font-size: 0.95rem;
+    line-height: 23px;
 }
 
 h1 {
@@ -97,10 +93,10 @@ h1 {
     color: var(--Verydark-cyan);
 }
 
-main a {
+.container a {
     text-decoration: none;
     background-color: white;
-    padding: 0.7rem;
+    padding: 0.8rem;
     width: 120px;
     border-radius: 50px;
     text-align: center;
@@ -129,7 +125,7 @@ main a:hover{
 
 #creditText {
     position: absolute;
-    margin-top: 36rem;
+    margin-top: 36.5rem;
     padding-bottom: 1rem;
     font-size: 0.8rem;
     text-align: center;
@@ -158,7 +154,7 @@ main a:hover{
         border-top-right-radius: 0px;
     }
     #creditText {
-        margin-top: 90rem;
+        margin-top: 93.5rem;
         max-width: 210px;
     }
 
