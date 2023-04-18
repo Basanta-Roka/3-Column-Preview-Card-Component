@@ -97,7 +97,7 @@ h2 {
     color: var(--Verydark-cyan);
 }
 
-a {
+main a {
     text-decoration: none;
     background-color: white;
     padding: 0.7rem;
@@ -122,9 +122,22 @@ a {
 background-color:var(--Verydark-cyan)
 }
 
-a:hover{
+main a:hover{
     border: 2px solid white;
     color: white;
+}
+
+#creditText {
+    position: absolute;
+    margin-top: 36rem;
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#creditText a {
+    text-decoration: none;
 }
 
 @media screen and (max-width:600px) {
@@ -143,6 +156,10 @@ a:hover{
     .luxury {
         border-bottom-left-radius: 10px;
         border-top-right-radius: 0px;
+    }
+    #creditText {
+        margin-top: 90rem;
+        max-width: 210px;
     }
 
 
